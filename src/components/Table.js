@@ -16,6 +16,7 @@ const Table =(props)=> {
   let [newNumber,setNewNumber] = useState(props.number)
   const add =()=>{
   setNewNumber(newNumber += Math.floor(Math.random()*11))
+  console.log('the state was changed')
   }
  
   return (
